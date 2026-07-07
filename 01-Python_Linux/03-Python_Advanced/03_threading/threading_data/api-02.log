@@ -1,0 +1,12 @@
+2024-03-15 07:04:01 | api-02 | 10.0.0.14    | SSH_LOGIN_SUCCESS   | User alice authenticated
+2024-03-15 07:04:12 | api-02 | 185.220.101.47 | SSH_LOGIN_FAILED    | Invalid credentials
+2024-03-15 07:04:13 | api-02 | 185.220.101.47 | SSH_LOGIN_FAILED    | Invalid credentials
+2024-03-15 07:04:14 | api-02 | 185.220.101.47 | SSH_LOGIN_FAILED    | Invalid credentials
+2024-03-15 07:04:30 | api-02 | 10.0.0.22    | FILE_ACCESS         | /etc/passwd read
+2024-03-15 07:04:45 | api-02 | 45.33.32.156 | PORT_SCAN           | TCP SYN flood detected
+2024-03-15 07:04:52 | api-02 | 10.0.3.11    | SERVICE_START       | nginx/sshd started
+2024-03-15 07:04:58 | api-02 | 10.0.0.14    | CONFIG_CHANGE       | Firewall rule updated
+2024-03-15 07:04:59 | api-02 | 198.51.100.9 | INTRUSION_ATTEMPT   | CVE-2021-44228 exploit
+2024-03-15 07:04:60 | api-02 | 10.0.0.31    | SSH_LOGIN_SUCCESS   | User bob authenticated
+2024-03-15 07:04:61 | api-02 | 185.220.101.47 | SSH_LOGIN_SUCCESS   | Brute force succeeded
+2024-03-15 07:04:62 | api-02 | 10.0.0.14    | BACKUP_START        | Incremental backup initiated

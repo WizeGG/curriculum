@@ -1,0 +1,22 @@
+{
+  "siem": {
+    "host": "10.0.0.100",
+    "port": 514,
+    "protocol": "UDP",
+    "enabled": true
+  },
+  "firewall": {
+    "default_policy": "DENY",
+    "allowed_ports": [22, 80, 443],
+    "blocked_ips": []
+  },
+  "alerting": {
+    "critical_threshold": 9.0,
+    "email_on_critical": true,
+    "notification_email": "soc-team@company.com"
+  },
+  "retention": {
+    "log_days": 90,
+    "alert_days": 365
+  }
+}

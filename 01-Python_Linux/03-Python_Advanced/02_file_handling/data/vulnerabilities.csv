@@ -1,0 +1,8 @@
+cve_id,cvss_score,severity,affected_system,is_patched,date_discovered
+CVE-2021-44228,10.0,CRITICAL,Apache Log4j,false,2024-03-01
+CVE-2023-23397,9.8,CRITICAL,Microsoft Outlook,true,2024-02-15
+CVE-2023-44487,7.5,HIGH,HTTP/2 Stack,false,2024-03-10
+CVE-2022-30190,7.8,HIGH,Microsoft Office,true,2024-01-20
+CVE-2023-00001,4.2,MEDIUM,Internal API,false,2024-03-12
+CVE-2023-00002,3.1,LOW,Dev Tool,true,2024-03-05
+CVE-2021-26855,9.1,CRITICAL,Microsoft Exchange,false,2024-03-14
